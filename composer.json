@@ -1,0 +1,21 @@
+{
+    "name": "esofts/yii2-sms",
+    "description": "This extension adds SMS capabilities to your Yii2 Extenstion",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","sms",""],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elijah Mwangi",
+            "email": "emwangi.g@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "esofts\\Sms\\": ""
+        }
+    }
+}
